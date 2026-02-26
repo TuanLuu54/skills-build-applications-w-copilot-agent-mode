@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffd700 !important;
+}
+
+.card-header {
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.table th {
+  background: #2575fc;
+  color: #fff;
+}
+
+.btn-primary, .btn-success, .btn-warning, .btn-danger, .btn-secondary {
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+
+.btn-success {
+  background: linear-gradient(90deg, #28a745 0%, #a8ff78 100%);
+}
+
+.btn-warning {
+  background: linear-gradient(90deg, #ffc107 0%, #ffecb3 100%);
+  color: #222;
+}
+
+.btn-danger {
+  background: linear-gradient(90deg, #dc3545 0%, #ff6a6a 100%);
+}
+
+.btn-secondary {
+  background: linear-gradient(90deg, #6c757d 0%, #bdbdbd 100%);
+}
+
+h2, .card-title {
+  color: #2575fc;
+  font-weight: 700;
+}
+
+a {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6a11cb;
+}
